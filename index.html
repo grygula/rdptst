@@ -2,11 +2,30 @@
 <html >
 <head>
     <title>Mashup test</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Simple page</h1>
+    <h1>Simple page</h1>
+<script src="code.js"></script>
 <section id="header"> Some header info sss</section>
 <section>
 
+<!-- ********************** Begin Pega content ********************** -->
+<script src ='http://10.60.213.214:9080/prweb/?pyActivity=pzIncludeMashupScripts'></script>
+<div data-pega-gadgetname ='PegaGadget' 
+data-pega-action ='createNewWork' 
+data-pega-action-param-classname ='Stater-Redemption-Work-FullRedemption' 
+data-pega-action-param-flowname ='pyStartCase' 
+data-pega-action-param-model ='' 
+data-pega-isdeferloaded ='false' 
+data-pega-applicationname ='RedemptionDEV' 
+data-pega-threadname ='STANDARD' 
+data-pega-systemid ='pega'
+data-pega-resizetype ='stretch' 
+data-pega-url ='http://10.60.213.214:9080/prweb/' 
+data-pega-redirectguests ='true' ></div>
+
+<!-- ********************** End Pega content ********************** -->
+</section>
 </body>
 </html>
